@@ -9,6 +9,7 @@ public class Main {
 
 		HttpServer appServer = new ProductTestAppServer("demo-shop-beans.xml");
 		 appServer.start(8080);
+		 System.out.println("Server listening on localhost:8080");
 			 
 	}
 }
